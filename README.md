@@ -25,10 +25,15 @@ These instructions will get you a copy of the project up and running on your loc
 This will start the Flask development server.
 Access the app in your web browser at http://public ip:5000
 ### Deployment with Docker
-#### 1.Build the Docker image:
+##### 1.Build the Docker image:
      docker build -t flask-docker-app .
-#### 2.Run the Docker container:
+##### 2.Run the Docker container:
      docker run -d -p 5000:5000 flask-docker-app
 This will run the Flask app within a Docker container.
+##### 3.Access the app in your web browser at http://public ip:5000
+### Push it to DockerHub
+###### 1.Tag the image:
+      docker tag <image_name>:latest <username>/<image_name>:latest
+###### 2.push the image
+      docker push <username>/<image_name>:latest
 
-#### 3.Access the app in your web browser at http://public ip:5000
