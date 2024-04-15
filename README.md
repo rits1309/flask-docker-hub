@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Create a new application from scratch
 #### Create a directory with a name "Flask-Docker-App"
       ``` mkdir Flask-Docker-App
+      ```
 #### Navigate to the newly created directory
 cd Flask-Docker-App
 #### Create a virtual environment
