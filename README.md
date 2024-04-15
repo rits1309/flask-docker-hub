@@ -18,11 +18,10 @@ These instructions will get you a copy of the project up and running on your loc
       source venv/bin/activate
 #### Install Flask
       pip install Flask
-#### Create the required files
-Create two files; app.py and Dockerfile
+#### Create two files
       touch app.py Dockerfile
 ### How to access
-``` python app.py ```
+      python app.py
 This will start the Flask development server.
 Access the app in your web browser at http://public ip:5000
 ### Deployment with Docker
