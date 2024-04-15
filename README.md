@@ -12,13 +12,12 @@ These instructions will get you a copy of the project up and running on your loc
       
 #### Navigate to the newly created directory
       cd Flask-Docker-App
-#### Create a virtual environment
-On EC2 Ubuntu
+#### Create a virtual environment On EC2 Ubuntu
       python3 -m venv venv
 #### Activate the environment
-source venv/bin/activate
+      source venv/bin/activate
 #### Install Flask
-pip install Flask
+      pip install Flask
 #### Create the required files
 Create two files; app.py and Dockerfile
  - touch app.py Dockerfile
