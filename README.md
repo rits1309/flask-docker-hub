@@ -38,5 +38,3 @@ This will run the Flask app within a Docker container.
       docker push <username>/<image_name>:latest
 
 
-
-          -----------------------------------------------------------------------------------------------------------------------
