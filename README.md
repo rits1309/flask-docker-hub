@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
       pip install Flask
 #### Create the required files
 Create two files; app.py and Dockerfile
- - touch app.py Dockerfile
+      touch app.py Dockerfile
 ### How to access
 ``` python app.py ```
 This will start the Flask development server.
