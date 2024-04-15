@@ -32,8 +32,8 @@ Access the app in your web browser at http://public ip:5000
 This will run the Flask app within a Docker container.
 ##### 3.Access the app in your web browser at http://public ip:5000
 ### Push it to DockerHub
-###### 1.Tag the image:
+######  1.Tag the image:
       docker tag <image_name>:latest <username>/<image_name>:latest
-###### 2.push the image
+######  2.push the image
       docker push <username>/<image_name>:latest
 
